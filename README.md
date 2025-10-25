@@ -14,6 +14,7 @@ Este projeto foi criado como parte de um teste técnico para vaga de **Desenvolv
 - **PostgreSQL & DBeaver** -> Banco de dados e ferramenta de gerenciamento
 - **Jest** -> Framework de testes
 - **Docker & Docker Compose** -> Containerização da aplicação
+- **Husky, ESLint & Prettier** -> Ferramentas para consistência do código
 
 As tecnologias e frameworks escolhidos foram selecionados principalmente com base na minha familiaridade com cada um, dentre as opções disponíveis. Além disso, considerei quais se adequavam melhor à complexidade do projeto.
 
