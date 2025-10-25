@@ -1,0 +1,22 @@
+echo ""
+echo "🔍 Validating commit message with commitlint..."
+echo ""
+
+if ! OUTPUT=$(npx --no -- commitlint --edit "$1" 2>&1); then
+  echo "$OUTPUT"
+  echo ""
+  echo "❌ Commit rejected: the message does not follow the conventional commit format!"
+  echo ""
+  echo "📌 Expected format: <type>: <short description>"
+  echo ""
+  echo "✅ Examples:"
+  echo "   feat: add login button"
+  echo "   fix: fix validation error"
+  echo "   chore: update dependencies"
+  echo ""
+  echo "📚 Reference: https://www.conventionalcommits.org/en/v1.0.0/"
+  echo ""
+  exit 1
+else
+  echo "$OUTPUT"
+fi
