@@ -2,8 +2,6 @@
 
 A **OtakuPlay** é uma API RESTful desenvolvida em **NestJS** para gerenciar um catálogo de animes e as listas de favoritos dos usuários.
 
-Este projeto foi criado como parte de um teste técnico para vaga de **Desenvolvedor(a) Back-End**.
-
 ---
 
 ## 🚀 Tecnologias Utilizadas
